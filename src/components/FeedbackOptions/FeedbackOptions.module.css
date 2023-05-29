@@ -1,3 +1,7 @@
+.FeedbackOptionsContainer{
+  justify-content: center;
+  display: flex;
+}
 .feedbackBtn {
     display: inline-flex;
 }
@@ -10,39 +14,24 @@
   color: #000;
   cursor: pointer;
   display: inline-flex;
-  fill: #000;
   font-family: Inter,sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   height: 48px;
   justify-content: center;
-  letter-spacing: -.8px;
   line-height: 24px;
   min-width: 140px;
   outline: 0;
   padding: 0 17px;
   text-align: center;
   text-decoration: none;
-  transition: all .3s;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.feedbackBtn:focus {
-  color: #171e29;
+  transition: all .5s;
 }
 
 .feedbackBtn:hover {
-  border-color: #06f;
-  color: #06f;
-  fill: #06f;
-}
-
-.feedbackBtn:active {
-  border-color: #06f;
-  color: #06f;
-  fill: #06f;
+  border-color: black;
+  color: black;
+  background-color: blue;
 }
 
 .feedbackBtn:nth-of-type(even) {

@@ -3,7 +3,7 @@ import css from './FeedbackOptions.module.css';
 
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
-    <div>
+    <div className={css.FeedbackOptionsContainer}>
       <button
         className={css.feedbackBtn}
         onClick={() => onLeaveFeedback('good')}
